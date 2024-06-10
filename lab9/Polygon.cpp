@@ -1,12 +1,13 @@
-#pragma once
-#include "Polygon.h"
 
+#include "Polygon.h"
+#include <iostream>
+using namespace std;
 void Polygon::SetValues(int width, int height)
 {
     mWidth= width;
     mHeight= height;
 }
-int Polygon::Area()
+void Polygon::PrintArea()
 {
-    return 0;
+    cout<<this->Area()<<'\n';
 }
