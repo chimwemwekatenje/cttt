@@ -6,5 +6,6 @@
     int mHeight;
     public:
     void SetValues(int width, int height);
+    virtual int Area();
  };
  
